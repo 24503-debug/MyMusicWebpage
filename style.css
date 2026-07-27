@@ -1,4 +1,4 @@
-body{
+.hero-image{
 
-    background-color: #030303;
+    background-image: url(hero_image.jpg);
 }
