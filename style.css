@@ -9,11 +9,11 @@
 
 .hero-text{
 
-     color: whitesmoke;
+     color: #F8F7F2;
      position: absolute;
      text-align: center;
-     top: 280 px;
+     top: 50px;
      width: 100%;
-     font-size: large;
-     
+     font-size: 100px;
+
 }
