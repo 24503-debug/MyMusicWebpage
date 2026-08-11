@@ -38,6 +38,7 @@ body {
 }
 
 .circle-item {
+    display: block;
     position: relative;
     width: 130px;
     height: 130px;
@@ -185,6 +186,7 @@ body {
 }
 
 .honorable-mention-card {
+    display: block;
     position: relative;
     width: 220px;
     height: 220px;
