@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fcfcfc;
+    padding: 20px;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 22px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.back-btn:hover {
+    background: rgba(255, 255, 255, 0.85);
+    transform: scale(1.05);
+}
+
+.back-arrow {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.artist-hero {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.artist-hero-text {
+    font-size: 75px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.1;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.35); 
+}
+
+.rock-flex-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.rock-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.rock-album-cover {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.curved-description-box {
+    flex: 1;
+    background-color: #d9d9d9;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.curved-description-box p {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #000000;
+}
