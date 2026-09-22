@@ -15,9 +15,7 @@ body {
     position: absolute;
     top: 25px;
     left: 25px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+    display: inline-block;
     padding: 8px 22px;
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.4);
@@ -27,18 +25,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-.back-btn:hover {
-    background: rgba(255, 255, 255, 0.85);
-    transform: scale(1.05);
-}
-
-.back-arrow {
-    font-size: 18px;
-    font-weight: bold;
+    /* box-shadow removed here */
 }
 
 .artist-hero {
