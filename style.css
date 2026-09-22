@@ -10,7 +10,6 @@ body {
     color: #111111;
 }
 
-/* Hero Section */
 .hero-image {
     background-image: url("hero_image.jpg");
     background-position: center;
@@ -32,7 +31,6 @@ body {
     text-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
 }
 
-/* Instruction Text Styles */
 .click-instruction {
     text-align: center;
     color: #666666;
@@ -46,7 +44,6 @@ body {
     margin-bottom: -10px;
 }
 
-/* Navigation Banner */
 .circle-banner {
     display: flex;
     justify-content: center;
@@ -82,7 +79,6 @@ body {
     margin: 40px auto 140px auto;
 }
 
-/* Top 3 Section */
 .top-three-container {
     max-width: 950px;
     margin: 0 auto;
@@ -155,7 +151,7 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
-/* Honorable Mentions Grid */
+
 .honorable-mention-container {
     max-width: 950px;
     margin: 0 auto;
